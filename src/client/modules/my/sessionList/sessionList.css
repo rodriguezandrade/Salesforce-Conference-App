@@ -2,8 +2,8 @@
     width: 100%;
     padding: 2rem;
     color: #080707;
-  }
-  .session {
+}
+.session {
     width: 100%;
     display: flex;
     font-size: 1rem;
@@ -16,34 +16,34 @@
     align-items: center;
     border-left: 3px solid #0277bd;
     border-radius: 0 0.5rem 0.5rem 0;
-  }
-  .session:hover {
+}
+.session:hover {
     background-color: #e1f5fe;
     cursor: pointer;
     text-decoration: none;
-  }
-  .session p {
+}
+.session p {
     margin: 0;
-  }
-  .session .title {
+}
+.session .title {
     font-weight: 600;
     font-size: 1.2rem;
-  }
-  .session .icon {
+}
+.session .icon {
     color: #039be5;
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 1.75rem;
-  }
-  .session .icon.time {
+}
+.session .icon.time {
     background-image: url(https://developer.salesforce.com/files/js-dev/icons/clock.svg);
-    margin-top: .6rem;
-  }
-  .session .icon.room {
+    margin-top: 0.6rem;
+}
+.session .icon.room {
     background-image: url(https://developer.salesforce.com/files/js-dev/icons/location.svg);
-    margin-top: .4rem;
-  }
-  input {
+    margin-top: 0.4rem;
+}
+input {
     border: 1px solid #dddbda;
     border-radius: 0.25rem;
     transition: border 0.1s linear, background-color 0.1s linear;
@@ -52,13 +52,13 @@
     line-height: 2rem;
     font-size: 1rem;
     width: 15rem;
-  }
-  .speaker-pictures {
+}
+.speaker-pictures {
     display: flex;
     justify-content: end;
-  }
-  .speaker-pictures > img {
+}
+.speaker-pictures > img {
     border-radius: 50%;
     height: 3.5rem;
     margin-left: 0.5rem;
-  }
+}
